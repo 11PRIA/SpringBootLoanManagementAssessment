@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/loans")
 public class LoanController {
-
+  Loggerlogger =LoggerFactory.getLogger(LoanController.class);
     @Autowired
     private LoanService loanService;
 
